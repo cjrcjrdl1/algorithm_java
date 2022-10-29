@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class UseStringBuilder {
     public ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
@@ -40,7 +40,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        UseStringBuilder T = new UseStringBuilder();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String[] str = new String[n];
