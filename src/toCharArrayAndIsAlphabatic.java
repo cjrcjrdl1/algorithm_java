@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class toCharArrayAndIsAlphabatic {
     public String solution(String str) {
         String answer;
         char[] s = str.toCharArray();
@@ -25,7 +24,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        toCharArrayAndIsAlphabatic T = new toCharArrayAndIsAlphabatic();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
