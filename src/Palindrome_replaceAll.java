@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Palindrome_replaceAll {
     public String solution(String s) {
         String answer = "NO";
         s = s.toUpperCase().replaceAll("[^A-Z]", "");
@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Palindrome_replaceAll T = new Palindrome_replaceAll();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));
