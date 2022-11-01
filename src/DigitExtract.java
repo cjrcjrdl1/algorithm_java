@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class DigitExtract {
     //    public int solution(String s) {
 //        int answer = 0;
 //        for (char x : s.toCharArray()) {
@@ -22,7 +22,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        DigitExtract T = new DigitExtract();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
