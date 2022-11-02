@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class StringCompression {
     public String solution(String s) {
         String answer = "";
         s = s + " ";
@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        StringCompression T = new StringCompression();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
