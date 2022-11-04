@@ -1,6 +1,8 @@
+package study_string;
+
 import java.util.Scanner;
 
-public class Main {
+public class exam2 {
     public String solution(String str) {
         String answer = "";
 
@@ -23,7 +25,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        exam2 T = new exam2();
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
 
