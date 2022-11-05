@@ -11,7 +11,7 @@ public class IndexOfAndSubString {
             String tmp = str.substring(0, pos);
             int len = tmp.length();
             if (len > m) {
-                len = m;
+                m = len;
                 answer = tmp;
             }
             str = str.substring(pos+1);

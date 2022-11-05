@@ -1,27 +1,29 @@
+package study_string;
+
 import java.util.Scanner;
 
-public class Main {
+public class exam3 {
     public String solution(String str) {
         String answer = "";
         int m = Integer.MIN_VALUE, pos;
-
         while ((pos = str.indexOf(" ")) != -1) {
-            String s = str.substring(0, pos);
-            int len = s.length();
+            String tmp = str.substring(0, pos);
+            int len = tmp.length();
             if (len > m) {
                 m = len;
-                answer = s;
+                answer = tmp;
             }
             str = str.substring(pos + 1);
         }
         if (str.length() > m) {
             answer = str;
         }
+
 //        String[] s = str.split(" ");
-//        for (String x : s) {
+//        for (String x: s) {
 //            int len = x.length();
-//            if (m < len) {
-//                m = len;
+//            if (max < len) {
+//                max = len;
 //                answer = x;
 //            }
 //        }
@@ -29,7 +31,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        exam3 T = new exam3();
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
 
