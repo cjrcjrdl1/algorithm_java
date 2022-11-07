@@ -1,7 +1,9 @@
+package study_string;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class exam4 {
     public ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
 //        for (String x : str) {
@@ -25,7 +27,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        exam4 T = new exam4();
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         String[] str = new String[n];
