@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class exam5 {
     public String solution(String str) {
         String answer;
         char[] s = str.toCharArray();
@@ -24,7 +23,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        exam5 T = new exam5();
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
         System.out.println(T.solution(str));
