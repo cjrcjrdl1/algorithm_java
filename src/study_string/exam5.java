@@ -1,3 +1,5 @@
+package study_string;
+
 import java.util.Scanner;
 
 public class exam5 {
