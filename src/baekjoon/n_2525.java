@@ -1,7 +1,8 @@
-import java.util.ArrayList;
+package baekjoon;
+
 import java.util.Scanner;
 
-public class Main {
+public class n_2525 {
     public String solution(int A, int B, int C) {
         int min = A * 60 + B + C;
 
@@ -11,7 +12,7 @@ public class Main {
         return hour + " " + minute;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        n_2525 T = new n_2525();
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();
