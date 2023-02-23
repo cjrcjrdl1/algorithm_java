@@ -1,4 +1,4 @@
-package java_tutorial;
+package java_tutorial_string;
 
 import java.util.Scanner;
 
