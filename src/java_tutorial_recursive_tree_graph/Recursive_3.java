@@ -6,7 +6,6 @@ public class Recursive_3 {
         else return n * DFS(n - 1);
     }
 
-
     public static void main(String[] args) {
         Recursive_3 T = new Recursive_3();
         System.out.println(T.DFS(5));
